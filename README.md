@@ -1,13 +1,13 @@
-<!-- MajorDom Project Banner -->
-<a href="https://majordom.io" target="_blank">
+<!-- Parker Industries Project -->
+<a href="https://parker-industries.org" target="_blank">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
-      srcset="https://markparker.me/banners/majordom-dark.webp"
+      srcset="https://markparker.me/banners/company-dark.webp"
     />
     <img
-      alt="Part of MajorDom — the next-gen smart home"
-      src="https://markparker.me/banners/majordom-light.webp"
+      alt="Made by Parker Industries"
+      src="https://markparker.me/banners/company-light.webp"
     />
   </picture>
 </a>
