@@ -25,7 +25,7 @@ then:
 
 **1. Rename the placeholders** (two tokens — find & replace across the repo)
 - `project-template` → your PyPI/distribution name (hyphens): in `pyproject.toml`
-  (`[project].name`), `.github/workflows/release.yml` (`pypi-package-name`), and `mkdocs.yml`.
+  (`[project].name`), `.github/workflows/release.yml` (`pypi-package-name` and the publish job's PyPI `url`), and `mkdocs.yml`.
 - `project_template` → your import/package name (underscores): the `project_template/`
   directory, plus its `--cov=` / `packages` / `pythonpath` references in `pyproject.toml`.
 - If not publishing docs, delete `mkdocs.yml`, `docs/`, and `.github/workflows/docs.yml`;
